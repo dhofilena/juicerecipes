@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+<link rel="icon" type="image/png" href="images/splash/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" sizes="196x196" href="images/splash/apple-touch-icon-196x196.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/splash/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/splash/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/splash/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/splash/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/splash/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/splash/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/splash/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/splash/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="57x57" href="images/splash/apple-touch-icon-57x57.png">  
+<link rel="icon" type="image/png" href="images/splash/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="images/splash/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="images/splash/favicon-16x16.png" sizes="16x16">
+<link rel="shortcut icon" href="images/splash/favicon.ico" type="image/x-icon" /> 
+    
+<title>30 Day Juice Challenge | Juice Recipes</title>
+
+<link href="styles/style.css"           rel="stylesheet" type="text/css">
+<link href="styles/menus.css"           rel="stylesheet" type="text/css">
+<link href="styles/framework.css"       rel="stylesheet" type="text/css">
+<link href="styles/font-awesome.css"    rel="stylesheet" type="text/css">
+<link href="styles/animate.css"         rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/jqueryui.js"></script>
+<script type="text/javascript" src="scripts/framework-plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</head>
+
+<body class="left-sidebar"> 
+    
+<div id="preloader">
+    <div id="status">
+        <div class="preloader-logo" style="background-size: contain;width: initial;height: 65px;"></div>
+        <h3 class="center-text">Welcome to Juice Recipes</h3>
+        <p class="center-text smaller-text">
+            We're loading the content, give us a second. This won't take long!
+        </p>
+    </div>
+</div>
+    
+<div id="header-fixed" class="header-light">
+    <a class="header-icon-left open-left-sidebar" href="#"><i class="fa fa-navicon"></i></a>
+    <a class="header-icon-two open-header-menu disabled" href="#"><i class="fa fa-angle-down"></i></a>
+    <a class="header-logo" href="#"></a>
+    
+    <div class="header-menu-overlay"></div>
+    <div class="header-menu header-menu-light">
+        <a href="index.html" class="active-header-item"><i class="fa fa-home"></i>Homepage<i class="fa fa-circle"></i></a>
+        <a href="#"><i class="fa fa-cog"></i>Features<i class="fa fa-circle"></i></a>
+        <a href="#"><i class="fa fa-camera"></i>Media<i class="fa fa-circle"></i></a>
+        <a href="#"><i class="fa fa-file-o"></i>SiteMap<i class="fa fa-circle"></i></a>
+        <a href="#"><i class="fa fa-envelope-o"></i>Contact<i class="fa fa-circle"></i></a>
+        <a href="#" class="close-header-menu"><i class="fa fa-times"></i>Close<i class="fa fa-circle"></i></a>
+    </div> 
+</div> 
+    
+        
+<div id="footer-fixed" class="footer-menu footer-light disabled">
+    <a href="index.html" class="active-footer-item footer-mobile"><i class="fa fa-home"></i>Home</a>
+    <a href="#" class="footer-mobile"><i class="fa fa-cog"></i>Features</a>
+    <a href="#" class="footer-mobile"><i class="fa fa-camera"></i>Media</a>
+    <a href="#" class="footer-mobile"><i class="fa fa-navicon"></i>Sitemap</a>
+    <a href="#" class="footer-mobile"><i class="fa fa-envelope-o"></i>Contact</a>
+</div>
+    
+<div class="gallery-fix"></div> <!-- Important for all pages that have galleries or portfolios -->
+            
+<div class="all-elements">
+        
+    <div class="snap-drawers">
+        <div class="snap-drawer snap-drawer-left sidebar-light-clean">
+            <div class="background-color"><div class="sidebar-logo"></div></div>
+            
+            <div class="sidebar-divider no-bottom" style="margin-top: -22px;"></div>
+
+            <p class="sidebar-divider">Navigation</p>
+            <div class="sidebar-menu">
+                <div class="has-submenu">
+                    <a class="menu-item show-submenu submenu-active" href="#">
+                        <i class="fa fa-home bg-green-dark"></i>
+                        <em>Get Started</em>
+                        <strong>30</strong>
+                    </a> 
+                    <div class="submenu submenu-active">
+                        <a class="submenu-item" href="index.php">      <i class="fa fa-angle-right"></i><em>   Introduction          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index1.php">      <i class="fa fa-angle-right"></i><em>   Day 1: Fresh Start          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index2.php">     <i class="fa fa-angle-right"></i><em>   Day 2: Apple Crisp          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index3.php">     <i class="fa fa-angle-right"></i><em>   Day 3: The Eye Opener          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index4.php">     <i class="fa fa-angle-right"></i><em>   Day 4: Fresh Start          </em><i class="fa fa-circle"></i></a>                        
+                        <a class="submenu-item" href="index5.php">     <i class="fa fa-angle-right"></i><em>   Day 5: Lemon Essence          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index6.php">     <i class="fa fa-angle-right"></i><em>   Day 6: Fresh Start          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index7.php">     <i class="fa fa-angle-right"></i><em>   Day 7: Lemon Ginger Zinger          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item submenu-item-active" href="index8.php">     <i class="fa fa-angle-right"></i><em>   Day 8: Purple Power          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index9.php">     <i class="fa fa-angle-right"></i><em>   Day 9: Rainbow Blitz          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index10.php">    <i class="fa fa-angle-right"></i><em>   Day 10: The Fog Cutter          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index11.php">    <i class="fa fa-angle-right"></i><em>   Day 11: Fresh Start          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index12.php">    <i class="fa fa-angle-right"></i><em>   Day 12: Purple Passion          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index13.php">    <i class="fa fa-angle-right"></i><em>   Day 13: The Eye Opener          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index14.php">    <i class="fa fa-angle-right"></i><em>   Day 14: Apple Crisp          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index15.php">    <i class="fa fa-angle-right"></i><em>   Day 15: Can't Beet it          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index16.php">    <i class="fa fa-angle-right"></i><em>   Day 16: Lemon Ginger Zinger          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index17.php">    <i class="fa fa-angle-right"></i><em>   Day 17: Heart Beet          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index18.php">    <i class="fa fa-angle-right"></i><em>   Day 18: Fresh Start          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index19.php">    <i class="fa fa-angle-right"></i><em>   Day 19: Apple Crisp          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index20.php">    <i class="fa fa-angle-right"></i><em>   Day 20: Beet Nik          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index21.php">    <i class="fa fa-angle-right"></i><em>   Day 21: Rainbow Blitz          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index22.php">    <i class="fa fa-angle-right"></i><em>   Day 22: Beginner Green          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index23.php">    <i class="fa fa-angle-right"></i><em>   Day 23: Mean Green          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index24.php">    <i class="fa fa-angle-right"></i><em>   Day 24: Green Aid          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index25.php">    <i class="fa fa-angle-right"></i><em>   Day 25: Fresh Start          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index26.php">    <i class="fa fa-angle-right"></i><em>   Day 26: Beginner Green          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index27.php">    <i class="fa fa-angle-right"></i><em>   Day 27: Green Ginger Ale          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index28.php">    <i class="fa fa-angle-right"></i><em>   Day 28: Green Aid          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index29.php">    <i class="fa fa-angle-right"></i><em>   Day 29: Creamsicle          </em><i class="fa fa-circle"></i></a>
+                        <a class="submenu-item" href="index30.php">    <i class="fa fa-angle-right"></i><em>   Day 30: Pie in the Sky          </em><i class="fa fa-circle"></i></a>
+                    </div>
+                </div>                                 
+                <a class="menu-item close-sidebar" href="#">
+                    <i class="fa fa-times bg-red-dark"></i>
+                    <em>Close</em>
+                    <i class="fa fa-circle"></i>
+                </a>
+            </div>
+
+            <p class="sidebar-divider">Let's get social</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="https://www.facebook.com">
+                    <i class="fa fa-facebook facebook-color"></i>
+                    <em>Facebook</em>
+                </a>                   
+                <a class="menu-item" href="https://twitter.com">
+                    <i class="fa fa-twitter twitter-color"></i>
+                    <em>Twitter</em>
+                </a>                   
+            </div>
+
+            <p class="sidebar-divider">App Created by:</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="https://github.com/jeramyreyes">
+                    <i class="fa fa-github" style="background: #24292e; font-size: 28px;"></i>
+                    <em>Jeramy Reyes</em>
+                </a>                   
+            </div>
+            
+            <!-- <p class="sidebar-divider">Contact Us</p>
+            
+            <div class="sidebar-menu">
+                <a class="menu-item" href="tel:+123 456 7890">
+                    <i class="fa fa-phone bg-green-dark"></i>
+                    <em>Call Us</em>
+                </a>                   
+                <a class="menu-item" href="sms:+123 456 7890">
+                    <i class="fa fa-comment-o bg-blue-dark"></i>
+                    <em>Text Us</em>
+                </a>                 
+                <a class="menu-item" href="mailto:someone@yoursite.com?subject=Message from ThemeForest">
+                    <i class="fa fa-envelope-o bg-magenta-dark"></i>
+                    <em>Mail Us</em>
+                </a>     
+                <a class="menu-item close-sidebar" href="#">
+                    <i class="fa fa-times bg-red-dark"></i>
+                    <em>Close</em>
+                </a>
+            </div> -->
+            
+            <p class="sidebar-footer">Copyright 2017. All rights reserved</p>
+            
+        </div>       
+        
+        <div id="content" class="snap-content">
+            <div class="content">
+                <div class="header-clear"></div>
+                
+                <div class="homepage-slider container-fullscreen no-bottom">
+                    <img src="img/Purple Power.jpg" alt="img" height="100%" width="100%">
+                </div>  
+                
+                <div class="decoration container-fullscreen"></div>
+
+                <div class="slider-heading">
+                    <h4 class="center-text uppercase">Day 8: Purple Power (18<span style="text-transform: lowercase;">oz</span>) <br></h4>
+                    <p class="center-text">
+                        You'll find that this recipe only makes one full glass, but you have enough produce to make this recipe 2x!
+                        <br><br>
+                        You might want to separate the two batches because the flavors may not easily double.
+                    </p>
+                </div>
+            
+                <div class="decoration"></div>
+
+                <div class="decoration"></div>
+
+                <div class="container">
+                    <div class="one-half-responsive">
+                        <h4><i class="fa fa-file-text-o padding-right"></i>Description:</h4>
+                        <p>
+                            if you are trying to get apple cider into your diet, this works. You can definitely taste it. If you don't like tart, make sure you don't put the lemon peel in as well. you definitely need the apples and carrots to balance the cabbage flavor, although the cabbage wasn't objectionable. I would make this again.
+                        </p>    
+                    </div>
+                    <div class="one-half-responsive last-column">
+                        <h4><i class="fa fa-cutlery padding-right"></i>Ingredients:</h4>
+                        <p>
+                            <ul class="fa-ul">
+                
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Apple - 1 medium (3&quot; dia) </span> <span class="badge">182g</span></li>
+                            
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Cabbage (red) - 1/4 head, medium (about 5&quot; dia) </span> <span class="badge">209.75g</span></li>
+                            
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Celery - 3 stalk, large (11"-12" long) </span> <span class="badge">192g</span></li>
+                                
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Cider Vinegar (apple) - 1 tbsp </span> <span class="badge">14.9g</span></li>
+
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Ginger Root - 1 thumb (1&quot; dia) </span> <span class="badge">24g</span></li>
+
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Grapes - 15 grapes </span> <span class="badge">73.5g</span></li>
+
+                                <li style="padding-bottom:10px;"><i class="fa-li fa fa-xs fa-circle" style="color:#98ba75;"></i><span itemprop="ingredients">Lemon - 1/2 fruit (2-3/8&quot; dia) </span> <span class="badge">42g</span></li>
+
+                            </ul>
+                        </p>     
+                    </div>
+                    <div class="one-half-responsive">
+                        <h4><i class="fa fa-arrow-right padding-right"></i>Directions:</h4>
+                        <p>
+                            The apple cider vinegar is optional. Tastes great with and without it!
+                        </p>        
+                    </div>
+                    <div class="one-half-responsive last-column">
+                        <h4><i class="fa fa-leaf color-green-dark padding-right"></i>Benefits:</h4>
+                        <p>
+                            <b>Increased Blood Circulation</b><br>
+                            - Being a warming herb, ginger can help knock out a fever. This property also makes it effective in stimulating circulation of the blood. It can also help relax muscles around the blood vessels and is said to help prevent blood clots from forming. The warming effects make it a natural decongestant as well as an antihistamine, making it the perfect remedy for colds.
+                            <br>
+                            <br>
+
+                            <b>Lower Blood Pressure</b><br>
+                            - Celery calms the nerve because of the high calcium content & helps in controlling high blood pressure. Raw celery should be eaten to reduce high blood pressure.
+                            <br>
+                            - Drinking lemon juice is helpful for people suffering with heart problems as it contains potassium. It controls high blood pressure, dizziness, nausea as provides relaxation to mind and body. It reduces mental stress and depression.
+                            <br>
+                            <br>
+
+                            <b>Improved Complexion</b><br>
+                            - Lemon juice, being a natural antiseptic medicine, can participate to cure problems related to skin. Drinking of lemon juice mixed with water and honey brings glow to the skin.
+                            <br>
+                            - Celery contains sodium, which has been called a youth maintainer in the body. It's loaded with minerals and contains vitamin C as well, which helps maintain elasticity of the skin.
+                            <br>
+                            - Ginger helps improve circulation to the skin. It is also a powerful cleansing agent that helps keep the skin free of blemishes.
+                            <br>
+                            - Apples contain vitamins A and C which prevent sagging skin, as well as copper for brightening and toning.
+                            <br>
+                            <br>
+
+                            <b>Asthma Help</b><br>
+                            - One recent study shows that children with asthma who drank apple juice on a daily basis suffered from less wheezing than children who drank apple juice only once per month. Another study showed that children born to women who eat a lot of apples during pregnancy have lower rates of asthma than children whose mothers ate few apples.
+                            <br>
+                            - Lemon juice assists in curing respiratory problems, along with breathing problems and revives a person suffering from asthma. Lemon, being a rich rich source of vitamin C, helps in dealing with respiratory disorders.
+                            <br>
+                            <br>
+
+                            <b>Breast Cancer Prevention</b><br>
+                            - A Cornell University study found that rats who ate one apple per day reduced their risk of breast cancer by 17 percent. Rats fed three apples per day reduced their risk by 39 percent and those fed six apples per day reduced their risk by 44 percent.
+                            <br>
+                            - Recent studies shown that limonoids in lemons inhibit the development of cancer in laboratory animals and in human breast cancer cells.
+                            <br>
+                            <br>
+
+                            <b>Alzheimer's Prevention</b><br>
+                            - A study on mice at Cornell University found that the quercetin in apples may protect brain cells from the kind of free radical damage that may lead to Alzheimer's disease.
+                            <br>
+                            <br>
+
+                            <b>Bone Protection</b><br>
+                            - French researchers found that a flavanoid called phloridzin that is found only in apples may protect post-menopausal women from osteoporosis and may also increase bone density. Boron, another ingredient in apples, also strengthens bones.
+                            <br>
+                            <br>
+
+                            <b>Colon Cancer Prevention</b><br>
+                            - One study found that rats fed an extract from apple skins had a 43 percent lower risk of colon cancer. Other research shows that the pectin in apples reduces the risk of colon cancer and helps maintain a healthy digestive tract.
+                            <br>
+                            <br>
+
+                            <b>Liver Cancer Prevention</b><br>
+                            - Research found that rats fed an extract from apple skins had a 57 percent lower risk of liver cancer.
+                            <br>
+                            <br>
+
+                            <b>Lower Cholesterol</b><br>
+                            - The pectin in apples lowers LDL ("bad") cholesterol. People who eat two apples per day may lower their cholesterol by as much as 16 percent.
+                            <br>
+                            - Recent studies show that ginger might also have a role in lowering LDL cholesterol because the spice can help reduce the amount of cholesterol that is absorbed.
+                            <br>
+                            - Recent studies shown that limonoids in lemons help in reducing cholesterol.
+                            <br>
+                            <br>
+
+                            <b>Digestion</b><br>
+                            - One of ginger's most touted health benefits is its ameliorating effects on digestive ailments. It can help digest fatty foods and break down proteins. It is excellent for reducing gas. Many people report that it will also relieve nausea, and can be effective in treating morning sickness as well as motion sickness.
+                            <br>
+                            - Lemon juice helps to cure problems related to indigestion and consitpation.
+                            <br>
+                            - Apples contain a natural laxative. When juiced, it helps aid bowel movements. It is most effective when mixed with carrots and spinach juices, you can expect bowel movement the next day. Regularly eating apples also will ensure bowel movements due to its gel-forming fiber, pectin. It improves the intestinal muscle's ability to push waste through the gastrointestinal tract.
+                            <br>
+                            <br>
+
+                            <b>Weight Loss</b><br>
+                            - Adding lemon juice to a beverage can help increase weight loss.
+                            <br>
+                            <br>
+
+                            <b>Lung Cancer Prevention</b><br>
+                            - According to a study of 10,000 people, those who ate the most apples had a 50 percent lower risk of developing lung cancer. Researchers believe this is due to the high levels of the flavonoids quercetin and naringin in apples.
+                            <br>
+                            <br>
+
+                            <b>Reduce Inflammation</b><br>
+                            - Ginger can also help reduce inflammation. So it can be used to treat any disease that is caused by inflammations such as arthritis or ulcerative colitis. Some studies show that it can even help inhibit the replication of the herpes simplex virus.
+                            <br>
+                            <br>
+
+                            <b>Cancer Prevention</b><br>
+                            - Ginger has been shown in animal trials to help slow or even prevent cancerous tumor growth.
+                        </p>       
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+                <div class="container-fullscreen footer footer-light">
+                    <p class="small-text no-bottom center-text">Copyright 2017. All Rights Reserved</p>
+                </div>
+                <div class="footer-clear disabled"></div>
+                
+            </div>
+        </div>
+    </div>  
+    <a href="#" class="back-to-top-badge"><i class="fa fa-caret-up"></i>Back to top</a>
+</div>
+    
+</body>
